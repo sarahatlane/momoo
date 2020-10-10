@@ -9,6 +9,7 @@ import { FilterComponent } from './components/filter/filter.component';
 import { JobComponent } from './components/job/job.component';
 import { RegisterComponent } from './components/register/register.component';
 import { LoginComponent } from './components/login/login.component';
+import { ServiceComponent } from './components/service/service.component';
 
 
 @NgModule({
@@ -20,6 +21,7 @@ import { LoginComponent } from './components/login/login.component';
     JobComponent,
     RegisterComponent,
     LoginComponent,
+    ServiceComponent,
 
   ],
   imports: [
