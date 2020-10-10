@@ -1,0 +1,19 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+
+    .home__container {
+        margin-top: -10vh;
+    }
+
+   
+}
+
+.home__jobs {
+        height: 100vh;
+        padding-top: 60px;
+        background: #ffffff;
+    }
