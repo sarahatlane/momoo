@@ -1,13 +1,32 @@
 /* You can add global styles to this file, and also import other style files */
-@import '~bootstrap/dist/css/bootstrap.min.css';
+@import "~bootstrap/dist/css/bootstrap.min.css";
 @import "~bootswatch/dist/flatly/variables";
 @import "~bootstrap/scss/bootstrap";
 @import "~bootswatch/dist/flatly/bootswatch";
 
 * {
-    margin: 0;
+  margin: 0;
 }
 
 body {
-    background: #f1f2f3;
+  background: #f1f2f3;
+}
+
+.triangle-topleft {
+  border-top: 100vh solid #32557f;
+  border-right: 30vh solid transparent;
+}
+
+.nav-color {
+  background-color: #32557f;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #32557f;
+  color: white;
+  text-align: center;
 }

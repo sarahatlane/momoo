@@ -1,25 +1,28 @@
 // login
-.container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 10rem;
-    background-color: #F1F1F6;
-    border-radius: 50px;
-    
-
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10rem;
+  background-color: #f1f1f6;
+  border-radius: 50px;
 }
-
 
 // login header
-.login_header{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.login_header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
+#cover {
+  height: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
 
 // submit
 // .btn btn-primary{
@@ -33,8 +36,7 @@
 //   background-color: #ffffff;
 // }
 
-
-// submit button 
+// submit button
 // .btn btn-primary{
 //     flex-direction: column;
 //     justify-content: center;
