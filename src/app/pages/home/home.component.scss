@@ -1,19 +1,17 @@
 .home {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  //   height: 100vh;
 
-    .home__container {
-        margin-top: -10vh;
-    }
-
-   
+  .home__container {
+    margin-top: 5px;
+  }
 }
 
 .home__jobs {
-        height: 100vh;
-        padding-top: 60px;
-        background: #ffffff;
-    }
+  height: 100vh;
+  padding-top: 20px;
+  background: #ffffff;
+}
