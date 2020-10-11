@@ -10,6 +10,7 @@ import { JobComponent } from './components/job/job.component';
 import { RegisterComponent } from './components/register/register.component';
 import { LoginComponent } from './components/login/login.component';
 import { NewComponent } from './components/new/new.component';
+import { ServiceComponent } from './components/service/service.component';
 
 
 @NgModule({
@@ -22,6 +23,7 @@ import { NewComponent } from './components/new/new.component';
     RegisterComponent,
     LoginComponent,
     NewComponent,
+    ServiceComponent,
 
   ],
   imports: [
